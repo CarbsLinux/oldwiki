@@ -1,0 +1,40 @@
+CONTRIBUTING
+============
+
+Thanks for the contribution to the wiki!
+We do not want to enforce strict policies,
+these are merely etiquettes for commiting
+to the wiki.
+
+Commit messages
+---------------
+
+Your commit message should be in the following 
+format:
+
+        <subject>: <short description>
+
+
+An example could be:
+
+	wireless: configuring wpa_supplicant
+
+
+Site structure
+--------------
+
+The wiki should be formed in a parent-child 
+structure.
+Example:
+
+
+			      -- iwd
+                             |
+	       -- wireless -- -- index.md
+              |              |
+networking --- -- index.md    -- wpa_supplicant
+              |
+	      |
+	       -- ethernet -- index.md
+                             |
+	                      -- an article on some ethernet adapter
