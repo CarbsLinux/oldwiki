@@ -8,3 +8,8 @@ repositories. See the notes below.
 * [KISS Linux Official Repositories](https://github.com/kisslinux/repo)\*
 * [Cem's Personal Repository](https://git.ckyln.com/kiss-repository/log.html)
 * [KISS Linux Community Repo](https://github.com/kisslinux/community)
+
+Notes
+-----
+* \* Official repositories of KISS are only slightly different
+than Carbs repositories, so certain incompatibilities may occur.
