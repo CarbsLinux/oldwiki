@@ -15,10 +15,8 @@ You can get the `bkeymaps` package from the
 Build and install `bkeymaps`.
 
 <pre><code>
-
 -> kiss b bkeymaps
 -> kiss i bkeymaps
-
 </code></pre>
 
 Now you can find the keymaps in `/usr/share/bkeymaps`.
@@ -48,13 +46,10 @@ You can also load keymap during boot. You should edit
 `/lib/init/rc.boot` file and add something like
 
 <pre><code>
-
 # assuming you are using trq as your keymap
-
 log "Setting keymap to trq..."; {
     loadkmap < /path/to/trq.bmap
 }
-
 </code></pre>
 
 to your main function.
