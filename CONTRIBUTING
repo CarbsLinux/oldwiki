@@ -38,3 +38,15 @@ networking --- -- index.md    -- wpa_supplicant
 	       -- ethernet -- index.md
                              |
 	                      -- an article on some ethernet adapter
+
+
+Code Snippets
+-------------
+
+Instead of using "```" (three backticks) for adding code snippets,
+use "<pre><code>" HTML tags
+
+Ex:
+    <pre><code>
+    -> kiss b e2fsprogs
+    </pre></code>
