@@ -6,16 +6,6 @@ Carbs Linux does not come preinstalled with console
 keys. You probably won't be using more than 
 two either. There are two ways of using keymaps
 
-
-<!-- vim-markdown-toc Marked -->
-
-	* [Installing the "bkeymaps" package](#installing-the-"bkeymaps"-package)
-	* [Downloading the keymaps you require](#downloading-the-keymaps-you-require)
-	* [Loading keymap, doing it on login/boot](#loading-keymap,-doing-it-on-login/boot)
-* [assuming you are using trq as your keymap](#assuming-you-are-using-trq-as-your-keymap)
-
-<!-- vim-markdown-toc -->
-
 Installing the "bkeymaps" package
 ---------------------------------
 
