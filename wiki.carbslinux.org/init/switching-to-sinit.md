@@ -53,4 +53,4 @@ Finishing up
 ------------
 
 If all of the above is done, simply exit the chroot and reboot.
-Sinit should be functioning with any issues.
+Sinit should be functioning without any issues.
