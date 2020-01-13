@@ -31,6 +31,15 @@ An example could be:
 	wireless: configuring wpa_supplicant
 
 
+You can run,
+
+	git config commit.template commit-template
+
+
+on the root dir of the repository to get this template
+every time you are commiting to this repository.
+
+
 Site structure
 --------------
 
