@@ -13,3 +13,6 @@ Clone the repository
 You can clone the repository by doing
 
 <pre><code>$ git clone git://git.carbslinux.org/wiki</code></pre>
+
+There are instructions for contributing there. If your contribution is
+applicable to KISS Linux as well, please consider contributing there as well.
