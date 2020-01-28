@@ -6,3 +6,10 @@ easily make changes. Please do not abuse it, or everyone
 can lose access to it.
 
 Please read the CONTRIBUTING file before committing anything.
+
+If you are on Github, this is not the repository you are looking for.
+Clone this repository from
+
+        git://git.carbslinux.org/wiki
+
+If applicable, please contribute to KISS Linux wiki as well.
