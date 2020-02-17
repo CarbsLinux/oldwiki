@@ -42,9 +42,22 @@ type
 While optional, it is highly recommended to check the integrity
 of the tarball.
 
-    $ wget https://carbslinux.org/releases/carbs-rootfs-20191210.tar.xz.sha256sum
-    $ sha256sum -c carbs-rootfs-20191210.tar.xz.sha256sum
+    $ wget https://dl.carbslinux.org/releases/carbs-rootfs.tar.xz
 
+Compare the sha256sum from the releases page with the tarball. Outputs
+of the last two commands must be identical.
+
+    $ wget https://dl.carbslinux.org/releases/sha256sums.txt
+    $ sha256sum carbs-rootfs.tar.xz
+    $ grep carbs-rootfs.tar.xz sha256sums.txt
+
+Alternatively you could run a really complex command. But I personally
+do not recommend it. The command should not be outputting anything if
+the checksums match.
+
+    diff <(sha256sum carbs-rootfs.tar.xz) \
+    <(curl -sL https://dl.carbslinux.org/releases/sha256sums.txt |
+    grep carbs-rootfs.tar.xz)
 
 ### Check the signatures
 
