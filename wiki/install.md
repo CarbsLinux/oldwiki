@@ -44,19 +44,11 @@ of the tarball.
 
 
 Compare the sha256sum from the releases page with the tarball. Outputs
-of the last two commands must be identical.
+of the last two commands should be identical.
 
     $ wget https://dl.carbslinux.org/releases/sha256sums.txt
     $ sha256sum carbs-rootfs.tar.xz
     $ grep carbs-rootfs.tar.xz sha256sums.txt
-
-Alternatively you could run a really complex command. But I personally
-do not recommend it. The command should not be outputting anything if
-the checksums match.
-
-    diff <(sha256sum carbs-rootfs.tar.xz) \
-    <(curl -sL https://dl.carbslinux.org/releases/sha256sums.txt |
-    grep carbs-rootfs.tar.xz)
 
 ### Check the signatures
 
