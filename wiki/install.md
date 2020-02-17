@@ -34,7 +34,7 @@ up, and will continue on.
 First, we need to download the rootfs tarball. In your terminal
 type
 
-    $ wget https://carbslinux.org/releases/carbs-rootfs-20191210.tar.xz
+    $ wget https://dl.carbslinux.org/releases/carbs-rootfs.tar.xz
 
 
 ### Check the integrity of the tarball
@@ -42,7 +42,6 @@ type
 While optional, it is highly recommended to check the integrity
 of the tarball.
 
-    $ wget https://dl.carbslinux.org/releases/carbs-rootfs.tar.xz
 
 Compare the sha256sum from the releases page with the tarball. Outputs
 of the last two commands must be identical.
