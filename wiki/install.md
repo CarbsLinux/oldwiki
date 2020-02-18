@@ -75,7 +75,7 @@ of the tarball
 
 You need to extract the tarball to your mounted partition
 
-    $ tar xvpf carbs-rootfs-20191210.tar.xz -C /mnt
+    $ tar xvpf carbs-rootfs.tar.xz -C /mnt
 
 Chroot
 ------
