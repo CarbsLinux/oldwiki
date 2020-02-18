@@ -83,6 +83,15 @@ Chroot into Carbs Linux
 
     $ ./kiss-chroot /mnt
 
+
+### Update CA certificate data
+
+Before being able to use the package manager on the current tarball
+you need to obtain CA certifiactes. To do so, run
+
+    $ /etc/ssl/update-certdata.sh
+
+
 ### Enable repository signing (Highly Recommended)
 
 This step is optional, but very highly recommended 
